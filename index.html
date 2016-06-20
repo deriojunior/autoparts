@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AutoParts - Painel de Controle</title>
+
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+  <link href="css/bootstrap.superhero.min.css" rel="stylesheet">
+
+  <link href="css/estilo.css" rel="stylesheet">
+  <link href="css/painel.css" rel="stylesheet">
+
+</head>
+<body>
+
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html">AutoParts</a>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row-fluid">
+
+        <div class="col-sm-3">
+
+          <!-- menu navegação lateral -->
+          <div class="panel panel-primary">
+            <div id="colGroup1" role="tab" class="panel-heading">
+              <h4 class="panel-title">
+                <a href="#colListGroup1" aria-controls="colListGroup1" aria-expanded="false" data-toggle="collapse">
+
+                  <span class="glyphicon glyphicon-file"></span>
+
+                  Gerenciar Peças
+                </a>
+              </h4>
+            </div>
+
+            <div role="tabpanel" class="panel-collapse collapse" id="colListGroup1" aria-expanded="false">
+              <ul class="list-group">
+              <li class="list-group-item"><a href="pecas/pecas.html">Cadastrar Peças</a></li>
+                <li class="list-group-item"><a href="vendas/venda.html">Fazer Venda</a></li>
+                <li class="list-group-item"><a href="relatorio/relatorio.html">Relatório</a></li>
+              </ul>
+              <div class="panel-footer"></div>
+            </div>
+          </div>
+          <!-- /.menu navegação lateral -->
+
+          <!-- menu navegação lateral -->
+          <div class="panel panel-primary">
+            <div id="colGroup1" role="tab" class="panel-heading">
+              <h4 class="panel-title">
+                <a href="#colListGroup2" aria-controls="colListGroup2" aria-expanded="false" data-toggle="collapse">
+
+                  <span class="glyphicon glyphicon-user"></span>
+
+                  Gerenciar Usuários
+                </a>
+              </h4>
+            </div>
+            <div role="tabpanel" class="panel-collapse collapse" id="colListGroup2" aria-expanded="false">
+              <ul class="list-group">
+                <li class="list-group-item"><a href="usuarios/usuarios.html">Cadastrar Clientes</a></li>
+                <li class="list-group-item"><a href="funcionarios/funcionarios.html">Cadastrar Funcionários</a></li>
+              <div class="panel-footer"></div>
+            </div>
+          </div>
+          <!-- /.menu navegação lateral -->
+
+        </div> 
+
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js" crossorigin="anonymous"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Bootstrap -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+</body>
+</html>
