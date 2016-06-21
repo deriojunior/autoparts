@@ -1,0 +1,58 @@
+* {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+body {
+    padding-top: 50px;
+}
+
+.navbar-brand {
+   font-weight: 700; 
+}  
+
+#center{
+    width: 900px;
+    margin: auto;
+}
+
+#tbList {
+    width: 20%;
+}
+.panel {
+    margin-bottom: 2px;   
+}
+
+.conteudo_painel {
+    background: white;   
+    border-radius:8px;
+    border:1px solid #eee;
+    box-shadow: 2px 2px 5px #888;
+}
+
+.conteudo_painel_int {
+    padding: 12px;   
+}
+
+#table{
+    width: 800px;
+    margin: auto;
+    text-align: justify-all;
+}
+
+table, td, th {
+
+    border: solid 1px #000;
+}
+td, th {
+    width: 5000px;
+}
+th {
+    background-color: transparent;
+}
+.btn-danger {
+    background-color: red;
+}
+.btn-success {
+    background-color: green;
+}
