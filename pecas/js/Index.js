@@ -1,4 +1,4 @@
-/* JavaScript */
+
 
 var Index = {
 
@@ -6,18 +6,17 @@ var Index = {
 		Index.setForm();
 		Index.listPecas();
 	},
-//seter o formulario com o onsubmit
+
 	setForm: function() {
 		var form = document.getElementById('form');
 		if(form) {
 			form.onsubmit = function() {
 				Index.savePeca(form);
-				return false; //to prevent the form submition
+				return false;
 			};
 		}
 	},
 
-	//salva os dados
 
 	savePeca: function(form) {
 		var peca = {};
@@ -48,9 +47,9 @@ var Index = {
 			TableController.addList(pecaList, Index.edit, Index.delete);
 		}
 	}, 
-//editar od campos do filme
+
 	edit: function(nome) {
-		if(confirm("Você deseja editar o filme " + nome + " ?")) {
+		if(confirm("Você deseja editar a peça " + nome + " ?")) {
 			var peca = PecaDAO.get(nome);
 			if (peca) {
 				var form = document.getElementById('form');
@@ -61,10 +60,9 @@ var Index = {
 		}
 	},
 
-	//deletar o filme
 
 	delete: function(nome, element) {
-		if(confirm("Você deseja deletar o filme " + nome)) {
+		if(confirm("Você deseja deletar a peça " + nome)) {
 			var peca = PecaDAO.get(nome);
 			if (peca) {
 				if(PecaDAO.delete(nome)) {
@@ -76,6 +74,5 @@ var Index = {
 	}
 };
 
-//initialization
 PecaDAO.unserializeAndParse();
 Index.init();

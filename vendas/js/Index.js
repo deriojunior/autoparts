@@ -1,4 +1,7 @@
-/* JavaScript */
+Deployed in external server
+HTML5 API
+Report
+
 
 var Index = {
 
@@ -79,6 +82,5 @@ var Index = {
 	}
 };
 
-//initialization
 VendaDAO.unserializeAndParse();
 Index.init();

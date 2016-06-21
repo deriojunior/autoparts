@@ -1,4 +1,4 @@
-/* JavaScript Document */
+
 
 var TableController = {
 
@@ -7,7 +7,7 @@ var TableController = {
 	setTable: function(table) {
 		this.table = table;
 	},
-//adicionar os campo
+
 	addItem: function(item, editCallback, deleteCallback) {
 		if(item) {
 			var tbody = TableController.table.tBodies[0],
@@ -48,7 +48,6 @@ var TableController = {
 		return row;
 	},
 
-//criar o elemento/tipo um botaão para poder fazer a edição ou a deleteção
 	createActions: function(cell, item, editCallback, deleteCallback) {
 		var editElement = document.createElement("span"),
 		    deleteElement = document.createElement("span");

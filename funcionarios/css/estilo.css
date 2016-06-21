@@ -37,7 +37,7 @@ body {
 #table{
     width: 800px;
     margin: auto;
-    text-align: center;
+    text-align: justify-all;
 }
 
 table, td, th {

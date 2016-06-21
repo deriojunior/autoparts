@@ -47,11 +47,6 @@ body {
     background-color: green;
 }
 
-#table {
-    width: 1345px;
-    margin: 0 auto;
-}
-
 table, td, th {
 
     border: solid 1px #000;
